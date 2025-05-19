@@ -1,0 +1,65 @@
+/*Estilos Globales*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Estilos de la card*/
+/*auto:hace una distribucion automatica de los elementos*/
+.card{
+    border: transparent 5px solid;
+    display: block;
+    background-color:#f2f2f2;
+    width:400px;
+    height:650px;
+    margin: 50px auto 10px auto ;
+    border-radius: 5px;
+}
+
+.img{
+    display:block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.contenedor{
+    display: block;
+    margin: 50px auto 20px auto;
+    width: 70%;
+    height: auto;
+}
+
+.titulo , .parrafo{
+    display: block;    
+}
+
+/*Estilos de la contenedor*/
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    color: #774748;
+    margin: 10px auto 20px;
+}
+
+.parrafo{
+    text-align: justify;
+    font-size: 17px;
+    color: #262934;
+    margin: 10px auto 20px;
+}
+.boton{
+    display: block;
+    width: 100%;
+    background-color: #855F57;
+    color: #C3B9B3;
+    padding: 10px;
+    text-decoration: none;
+    border-radius:5px;
+    text-align: center;
+}
