@@ -1,0 +1,140 @@
+/*Estilos Globales*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*Estilos de la card*/
+/*auto:hace una distribucion automatica de los elementos*/
+.card{
+    border: transparent 5px solid;
+    display: block;
+    background-color:#f2f2f2;
+    width:450px;
+    height:720px;
+    margin: 50px auto 10px auto ;
+    border-radius: 5px; 
+    box-shadow: 7px 3px 57px 6px rgba(0, 0, 0, 0.73);
+    position: relative; /* Para posicionar hijos absolutamente */
+    overflow: visible;  /* Permite el desborde */
+}
+
+.img{
+    display:block;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+    position: relative;
+    z-index: 2; /* Para que esté encima del fondo */
+    margin-top: 80px; /* Ajusta para que la imagen de perfil baje y se superponga */
+    border: rgb(255, 255, 255) solid 5px; /* Bordes redondeados */
+}
+.contenedor{
+    display: block;
+    margin: 50px auto 20px auto;
+    width: 70%;
+    height: auto;
+}
+
+.titulo , .parrafo{
+    display: block;    
+}
+
+/*Estilos de la contenedor*/
+.titulo{
+    text-align: center;
+    font-size: 30px;
+    color: #774748;
+    margin: 10px auto 20px;
+}
+
+.parrafo{
+    text-align: justify;
+    font-size: 14px;
+    color: #262934;
+    margin: 10px auto 20px;
+}
+.boton{
+    display: block;
+    width: 100%;
+    background-color: #855F57;
+    color: #C3B9B3;
+    padding: 10px;
+    text-decoration: none;
+    border-radius:5px;
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.centrar {
+    display: block; /* Cambia flex por block */
+    text-align: center; /* Centra el contenido */
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.centrar div {
+    display: inline-block; /* Hace que cada div sea como una "caja" en línea */
+    width: 30%;            /* Ajusta el ancho de cada caja */
+    box-sizing: border-box;
+    margin: 0 1%;          /* Espacio entre cajas */
+    text-align: center;
+}
+
+.num {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    color: #262934;
+}
+
+.letra {
+    display: block;
+    font-size: 13px;
+    color: #888;
+}
+
+/*linea*/
+hr {
+    border-top: 1px solid #ccc;
+    width: 80%;      /* Cambia este valor según lo corta que la quieras */
+    margin: 16px auto;
+}
+
+.social {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social a img {
+    width: 28px;
+    height: 28px;
+    margin: 0 10px;
+}
+
+.fondo-codigo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px; /* Aumenta la altura para cubrir más */
+    background-image: url('./codigo.png');
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    z-index: 1;
+}
